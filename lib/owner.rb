@@ -59,7 +59,7 @@ class Owner
   end
 
   def sell_pets
-    @pets.each {|dog| dog.mood="happy"}
+    @pets.each {|animal| dog.mood="happy"}
 
   end
 end
