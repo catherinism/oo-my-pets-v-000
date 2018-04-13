@@ -16,6 +16,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.reset_all
