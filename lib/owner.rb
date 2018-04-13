@@ -4,14 +4,14 @@ class Owner
 
   attr_reader :species
 
-@@all =[]
+  @@all =[]
 
-def self.all
-  @@all
+  def self.all
+    @@all
 
-end
+  end
 
-  def initialize(
+  def initialize
 
     @@species = "human"
 
