@@ -18,8 +18,8 @@ class Owner
     @@all << self
   end
 
-  def reset_all
-    self.count
+  def self.reset_all
+
 
   end
 
