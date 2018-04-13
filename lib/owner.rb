@@ -20,10 +20,9 @@ class Owner
 
   def self.reset_all
     @@all.clear
-    
-  def self.count
-    @@all.count
   end
+
+  
 
 
 end
