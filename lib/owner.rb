@@ -46,4 +46,8 @@ class Owner
     @pets[:dogs] << new_pet
   end
 
+  def walk_dogs
+
+  end
+
 end
