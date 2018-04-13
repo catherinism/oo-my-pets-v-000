@@ -19,6 +19,7 @@ class Owner
   end
 
   def self.reset_all
+    binding.pry
     reset += 0
 
   end
