@@ -15,7 +15,10 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @@all << seld
+    @@all << self
+  end
+
+  def reset_all
 
   end
 
