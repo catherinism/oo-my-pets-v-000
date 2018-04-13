@@ -11,9 +11,8 @@ def self.all
 
 end
 
-  def initialize(name)
-    @name = name
-    @@all << self
+  def initialize(
+
     @@species = "human"
 
   end
