@@ -4,7 +4,7 @@ class Owner
 
 @@all =[]
 
-  def all
+  def initialize(name)
     @@all << self
 
   end
