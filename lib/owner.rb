@@ -7,7 +7,7 @@ class Owner
 
   @@all =[]
 
-  def self.reset_all
+  def self.all
     @@all
 
   end
@@ -18,9 +18,10 @@ class Owner
     @@all << self
   end
 
-
-
-
+  def self.reset_all
   
+
+  end
+
 
 end
