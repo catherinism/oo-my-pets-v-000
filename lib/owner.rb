@@ -18,10 +18,9 @@ class Owner
     @@all << self
   end
 
-  def self.reset_all
 
 
-  end
 
+  
 
 end
