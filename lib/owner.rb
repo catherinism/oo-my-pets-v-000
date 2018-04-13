@@ -1,10 +1,12 @@
+require 'pry'
+
 class Owner
 
-  attr_accessor :name
-
 @@all =[]
-  def initialize(name)
-    @name = name
+
+  def all
+    @@all << self
+
   end
 
 
