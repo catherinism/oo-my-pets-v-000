@@ -1,13 +1,13 @@
 require 'pry'
 
-  attr_accessor :name
-
 class Owner
+
+    attr_accessor :name
 
 @@all =[]
 
   def initialize(name)
-    
+
     @@all << self
 
   end
