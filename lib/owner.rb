@@ -1,9 +1,9 @@
 class Owner
 
-@all =[]
+@@all =[]
   def initialize(name)
     @name = name
   end
 
-  
+
 end
