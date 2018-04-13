@@ -42,7 +42,7 @@ class Owner
   end
 
   def buy_dog(name)
-  
+
     new_pet = Dog.new(name)
     @pets[:dogs] << new_pet
   end
@@ -67,7 +67,7 @@ class Owner
   end
 
   def list_pets
-
+    "I have "
 
   end
 end
