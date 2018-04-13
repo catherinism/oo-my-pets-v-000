@@ -11,7 +11,7 @@ class Owner
 
   end
 
-  def initialize
+  def initialize(name)
 
     @@species = "human"
 
