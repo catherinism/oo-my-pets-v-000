@@ -12,7 +12,7 @@ class Owner
   end
 
   def initialize(name)
-
+    @name = name
     @@species = "human"
 
   end
